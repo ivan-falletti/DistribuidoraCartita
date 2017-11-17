@@ -1,3 +1,5 @@
+<?php session_start();?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -29,17 +31,29 @@ A:hover {text-decoration:underline;color:#FFF;}
 <a href="index.php"><img src="fotos/logo.png";/></a> </div>
 <div class="perfil">
 <form id="micarrito">
-    <button type="submit"> MI CARRITO (0) </button>
+<button type="submit"> MI CARRITO (0) </button>
 </form>
+<?php if (isset($_SESSION["useremail"])) { ?> 
 <form id="cuenta">
-<a href="crearcuenta.php">CREAR CUENTA</a>  
+    <a href="#">HOLA <?php echo strtoupper($_SESSION["useremail"]) ?></a>  
 </form>
 <form id="linea">
 │
 </form>
 <form id="sesion">
-<a href="login.php">   INICIAR SESION</a> 
+    <a href="logout.php">   CERRAR SESION </a> 
 </form>
+<?php } else { ?>
+<form id="cuenta">
+    <a href="crearcuenta.php">CREAR CUENTA</a>  
+</form>
+<form id="linea">
+│
+</form>
+<form id="sesion">
+    <a href="login.php">   INICIAR SESION </a> 
+</form>
+<?php } ?>
 </div>
 <form id="searchform">
      <input type="text" placeholder="Buscar aqu&iacute;..." required>
