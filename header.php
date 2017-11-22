@@ -68,10 +68,18 @@ a:active { color: white; text-decoration: none; }
 <a href="index.php"><img src="fotos/logo.png";/></a> </div>
 <div class="perfil">
 
-    <form id="micarrito" action="carrito.php">
-        <button type="submit"> MI CARRITO (0) </button>
-    </form>
-    <?php if (isset($_SESSION["useremail"])) { ?> 
+    <?php if (isset($_SESSION["useremail"])) { ?>
+        <form id="micarrito" action="carrito.php">
+            <?php 
+                include("conexion.php");
+                $user_id = $_SESSION["userid"];
+                $sqldos = "SELECT COUNT(1) AS CartCount FROM cart_items WHERE user_id='$user_id'";
+                $recdos = mysqli_query($conexion,$sqldos);
+                $cartData = mysqli_fetch_array($recdos);
+            ?>
+            
+            <button type="submit"> MI CARRITO (<?php echo $cartData["CartCount"] ?>) </button>
+        </form>
         <form id="cuenta">
             <a href="#">HOLA <?php echo strtoupper($_SESSION["useremail"]) ?></a>  
         </form>

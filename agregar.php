@@ -3,14 +3,29 @@
 
     session_start();
 
+    if (!isset($_SESSION["useremail"])){
+        header('Location: login.php');
+        return;
+    }
+
     // product details
     $productid = isset($_GET['id']) ?  $_GET['id'] : die;
     $quantity = isset($_GET['quantity']) ?  $_GET['quantity'] : die;
-    $user_id = 1;
+    $user_id = $_SESSION["userid"];
     $created = date('Y-m-d H:i:s');
 
-    // insert query
-    $conexion->query("INSERT INTO cart_items (product_id, quantity, user_id, created) VALUES ('$productid','$quantity', '$user_id','$created')");
+    $sqldos = "SELECT product_id, quantity FROM cart_items WHERE user_id='$user_id' AND product_id='$productid'";
+    $recdos = mysqli_query($conexion,$sqldos);
+    $existingProduct = mysqli_fetch_array($recdos);
 
-    header('Location: index.php?action=added&id=' . $id);
+    if(isset($productid, $existingProduct['product_id'])) {
+        //if product already is on cart then update quantity
+        $quantity = $quantity + $existingProduct['quantity'];
+        header('Location: actualizar.php?id=' . $productid . '&quantity=' . $quantity);
+    }
+    else{
+        // insert query
+        $conexion->query("INSERT INTO cart_items (product_id, quantity, user_id, created) VALUES ('$productid','$quantity', '$user_id','$created')");
+        header('Location: carrito.php?action=added&id=' . $productid);
+    }
 ?>
