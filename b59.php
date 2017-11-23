@@ -28,7 +28,7 @@
 <td height="30"><b><font size="3">Cantidad:</font></b></td>&nbsp <td><input type="text" value="1" style="width: 40px; text-align: right" /></td></tr>
 </div>
 <div class="comprar">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="160"/></a></div> 
+<a class="add-to-cart" href="#"><img src="PAGINA/LOGOS/boton-comprar.png" width="160"/></a><input type="hidden" class="product-id" value="59" /></div> 
 <div class="productosrelacionados">
 <br/><br/>
 <label> <b><font size="5">¡¡PRODUCTOS RELACIONADOS!! </font> </b> </label>
