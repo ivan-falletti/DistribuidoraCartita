@@ -208,3 +208,32 @@ CREATE TABLE IF NOT EXISTS `cart_items` (
   `modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+
+
+--
+-- Table structure for table `compras`
+--
+CREATE TABLE IF NOT EXISTS `compras` (
+  `idcompra` int(11) NOT NULL AUTO_INCREMENT,
+  `numeroventa` int(11) DEFAULT NULL,
+  `codart` int(11) DEFAULT NULL,
+  `precio` varchar(15) DEFAULT NULL,
+  `cantidad` int(11) DEFAULT NULL,
+  `nombre` text,
+  `apellido` varchar(35) DEFAULT NULL,
+  `dni` varchar(8) DEFAULT NULL,
+  `provincia` varchar(30) DEFAULT NULL,
+  `localidad` varchar(30) DEFAULT NULL,
+  `codpostal` varchar(5) DEFAULT NULL,
+  `calle` varchar(30) DEFAULT NULL,
+  `numcalle` double DEFAULT NULL,
+  `email` varchar(30) DEFAULT NULL,
+  `subtotal` float NOT NULL,
+  `titular` varchar(30) NOT NULL,
+  `tipotarj` varchar(20) NOT NULL,
+  `cuotas` int(2) NOT NULL,
+  `numtarj` varchar(16) NOT NULL,
+  `vtotarj` varchar(5) NOT NULL,
+  `codseg` int(3) NOT NULL,
+  PRIMARY KEY (`idcompra`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;

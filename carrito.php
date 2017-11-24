@@ -48,7 +48,7 @@
 
                 <table align="center">
                     <tr>
-                        <td colspan="2" align="center"><a href="./compras/compra.php"><input class="button" type="button" value="Confirmar Compra"></a></td>
+                        <td colspan="2" align="center"><a href="./compra.php"><input class="button" type="button" value="Confirmar Compra"></a></td>
                         <td colspan="2" align="center"><a href="./index.php"><input class="button" type="button" value="Seguir Comprando"></a></td>
                     </tr>
                 </table>
