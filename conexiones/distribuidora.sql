@@ -194,3 +194,17 @@ INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `dni`, `tel`, `loc`,
 (4, 'Melisa', 'Delgado', 37331562, 2147483647, 'galvez', 'tacuari 175', 'melid248@gmail.com', '1234', ''),
 (9, 'Dario', 'Ambort', 33363672, 2147483647, 'galvez', 'Santa Fe 391', 'dc@gmail.com', '123', '123'),
 (10, 'Mirta', 'Legran', 1892319, 4343434, 'Bs As', 'Santa Fe 391', 'ml@gmail.com', '321', '321');
+
+
+--
+-- Table structure for table `cart_items`
+--
+CREATE TABLE IF NOT EXISTS `cart_items` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` int(11) NOT NULL,
+  `quantity` double NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;

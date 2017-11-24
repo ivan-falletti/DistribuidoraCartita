@@ -2,7 +2,7 @@
     include("header.php");
 ?>
 
-<div id="cuerpo">
+<div id="cuerpo" style="padding-top: 20px;">
 
     <center><h2>ARTICULOS AGREGADOS AL CARRITO</h2></center>
 
@@ -22,22 +22,24 @@
                 
                 <table width="700" align="center">
                     <tr>
-                        <td align="center"><b>Codigo</b></td>
                         <td align="center"><b>Descripcion</b></td>
                         <td align="center"><b>Cantidad</b></td>
+                        <td align="center"><b>Precio</b></td>
                         <td align="center"><b>Subtotal</b></td>
                     </tr>
 
                     <?php
                         while ($row = mysqli_fetch_array($recdos, MYSQL_ASSOC)) {
+
+                            $subtotal=$row["precio"] * $row["quantity"];
+                            $total=$subtotal + $total;
+
                             echo '<tr>
-                                    <td align="center">'.$row["id_producto"].'</td>
                                     <td align="center">'.$row["descripcion"].'</td>
                                     <td align="center">'.$row["quantity"].'</td>
                                     <td align="center">$ '.$row["precio"].'</td>
+                                    <td align="center">$ '.$subtotal.'</td>
                                 </tr>';
-
-                            $total=($row["precio"] * $row["quantity"]) + $total;
                         }
                     ?>
                 </table>

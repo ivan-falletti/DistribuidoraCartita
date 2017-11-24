@@ -46,7 +46,7 @@ if(isset($_POST['iniciarsesion']))
     if(isset($_POST['userlogin']) && !empty($_POST['userlogin']) &&
        isset($_POST['pwlogin']) && !empty($_POST['pwlogin']))
     {
-		 $sqldos = "SELECT useremail, userpass, nombre FROM usuarios WHERE useremail='$_POST[userlogin]'";
+		 $sqldos = "SELECT userpass, nombre, id_usuario FROM usuarios WHERE useremail='$_POST[userlogin]'";
          $recdos = mysqli_query($conexion,$sqldos);
 		 
 		 $sesion = mysqli_fetch_array($recdos);
@@ -54,6 +54,7 @@ if(isset($_POST['iniciarsesion']))
  		if(isset($_POST['pwlogin'], $sesion['userpass']))
         {
             $_SESSION['useremail'] = $sesion['nombre'];
+            $_SESSION['userid'] = $sesion['id_usuario'];
             header("location: index.php");
         } else {
             echo "<br/>";
