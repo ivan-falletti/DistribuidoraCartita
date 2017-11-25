@@ -26,6 +26,7 @@
                         <td align="center"><b>Cantidad</b></td>
                         <td align="center"><b>Precio</b></td>
                         <td align="center"><b>Subtotal</b></td>
+                        <td />
                     </tr>
 
                     <?php
@@ -39,6 +40,7 @@
                                     <td align="center">'.$row["quantity"].'</td>
                                     <td align="center">$ '.$row["precio"].'</td>
                                     <td align="center">$ '.$subtotal.'</td>
+                                    <td align="center"><a href="quitar.php?id='.$row["id_producto"].'" class="eliminar"><img src="fotos/eliminar.png"></a></td>
                                 </tr>';
                         }
                     ?>
