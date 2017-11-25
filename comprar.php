@@ -5,8 +5,8 @@
 	$user_id = $_SESSION["userid"];
 
 	$numeroventa=0;
-	$re=mysqli_query($conexion, "select * from compras order by numeroventa DESC limit 1");	
-	while (	$f=mysql_fetch_array($re)) {
+	$re=mysqli_query($conexion, "select numeroventa from compras order by numeroventa DESC limit 1");	
+	while (	$f=mysqli_fetch_array($re)) {
 		$numeroventa=$f['numeroventa'];	
 	}
 	
@@ -50,7 +50,7 @@
 		$sql="INSERT INTO compras (codart, precio, numeroventa, cantidad, nombre, apellido, dni, provincia, localidad, codpostal, calle, numcalle, email, titular, tipotarj, cuotas, numtarj, vtotarj, codseg, subtotal) 
 				VALUES ('$codart','$precio', '$numeroventa', '$cantidad', '$nombre', '$apellido', '$dni', '$provincia', '$localidad', '$codpostal', '$calle', '$numcalle', '$correo', '$titular', '$tipotarj', '$cuotas', '$numtarj', '$vencimiento', '$seguridad',  '$subtotal')";
 		
-		mysqli_query($sql,$conexion);
+		mysqli_query($conexion, $sql);
 	}
 
 	// delete user cart data
