@@ -7,22 +7,22 @@
 <div class="cami1">
 <a href="b9.php"><img src="PAGINA/bandejas/comun.png" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b9.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="oxi1">
 <a href="b10.php"><img src="PAGINA/bandejas/BANDEJAS CARTON REDONDAS.jpg" width="300" /></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b10.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="cami2">
 <a href="b11.php"><img src="PAGINA/bandejas/dor.png" width="300" /></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b11.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="oxi2">
 <a href="b12.php"><img src="PAGINA/bandejas/dor2.png" width="300" /></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b12.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 </div>
 <div id="pie">

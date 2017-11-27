@@ -7,22 +7,22 @@
 <div class="poli1">
 <a href="b29.php"><img src="PAGINA/bolsas/bolsas-pp-8-x-15-cm-con-adhesivo-p-200-unidades.jpg" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b29.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="poli2">
 <a href="b30.php"><img src="PAGINA/bolsas/bagslg-noglow-small_1_1_1.jpg" width="300"/></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b30.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="arranque1">
 <a href="b31.php"><img src="PAGINA/bolsas/60x901.jpg" width="300"/></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b31.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="arranque2">
 <a href="b32.php"><img src="PAGINA/bolsas/3.png" width="300"/></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b32.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 
 

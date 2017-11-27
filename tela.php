@@ -7,22 +7,22 @@
 <div class="cami1">
 <a href="b33.php"><img src="PAGINA/bolsas/bolsa-ecologica.jpg" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b33.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="masa1">
 <a href="b34.php"><img src="PAGINA/bolsas/bolsas-de-tela.jpg" width="300" /></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b34.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="cami2">
 <a href="b35.php"><img src="PAGINA/bolsas/ecological-bags-photo.png" width="300" /></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b35.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="oxi2">
 <a href="b36.php"><img src="PAGINA/bolsas/Bolsas-de-Tela-Ecologica.jpg" width="300" /></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b36.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 </div>
 <div id="pie">

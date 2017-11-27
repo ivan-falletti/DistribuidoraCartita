@@ -7,22 +7,22 @@
 <div class="cami1">
 <a href="b45.php"><img src="PAGINA/bolsas/5043_FOTO2.jpg" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b45.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="oxi1">
 <a href="b46.php"><img src="PAGINA/bolsas/bolsas-de-consorcio-de-colores-x-mayor-D_NQ_NP_986021-MLA20687759103_042016-F.jpg" width="300" /></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b46.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="cami2">
 <a href="b47.php"><img src="PAGINA/bolsas/bio.png" width="300" /></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b47.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="oxi2">
 <a href="b48.php"><img src="PAGINA/bolsas/lro-61-200-paquete-de-bolsa-para-recoleccion-de-rpbi-100pzs-D_NQ_NP_939301-MLM20308105485_052015-F_large.jpg" width="300" /></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b48.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 </div>
 <div id="pie">

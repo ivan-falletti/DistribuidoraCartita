@@ -7,22 +7,22 @@
 <div class="cami1">
 <a href="b73.php"><img src="PAGINA/papel/getphoto.jpg" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b73.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="masa1">
 <a href="b74.php"><img src="PAGINA/papel/C3708.jpg" width="300" /></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b74.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="cami2">
 <a href="b75.php"><img src="PAGINA/papel/gbgfgsdf.png"width="300" /></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b75.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="oxi2">
 <a href="b76.php"><img src="PAGINA/papel/Coloured-font-b-Crepe-b-font-font-b-Paper-b-font-for-Art-Craft-Gift-Wrap.jpg" width="300" /></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b76.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 </div>
 <div id="pie">

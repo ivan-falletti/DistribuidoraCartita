@@ -7,22 +7,22 @@
 <div class="riñon1">
 <a href="b37.php"><img src="PAGINA/bolsas/images (1).jpg" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b37.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="riñon2">
 <a href="b38.php"><img src="PAGINA/bolsas/image (1).jpg" width="300"/></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b38.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="papel3">
 <a href="b39.php"><img src="PAGINA/bolsas/1.png" width="300" /></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b39.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="papel4">
 <a href="b40.php"><img src="PAGINA/bolsas/Sin título.png" width="300" /></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b40.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 
 </div>

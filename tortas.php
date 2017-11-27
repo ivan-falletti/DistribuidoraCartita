@@ -7,22 +7,22 @@
 <div class="cami1">
 <a href="b17.php"><img src="PAGINA/bandejas/image159-350x435.jpeg" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b17.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="oxi1">
 <a href="b18.php"><img src="PAGINA/bandejas/tortera-cadri-rectangular-27-x-36-x-130-mm.jpg" width="300" /></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b18.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="cami2">
 <a href="b19.php"><img src="PAGINA/bandejas/bandejas-torteras-campanas-descartables-D_NQ_NP_509911-MLU20676998839_042016-O.jpg" width="300" /></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b19.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="oxi2">
 <a href="b20.php"><img src="PAGINA/bandejas/download.jpg" width="300" /></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b20.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 </div>
 <div id="pie">

@@ -7,22 +7,22 @@
 <div class="cami1">
 <a href="b85.php"><img src="PAGINA/papel/papel-folex.png" width="300"/></a> </div>
 <div class="c1">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
+<a href="b85.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140"/> </a></div> 
 
 <div class="masa1">
 <a href="b86.php"><img src="PAGINA/papel/papel-regalo-dif-motivos-x-50.jpg" width="300" /></a> </div>
 <div class="c2">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b86.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="cami2">
 <a href="b87.php"><img src="PAGINA/papel/SERXX1818_1.jpg"width="300" /></a> </div>
 <div class="c3">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b87.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 
 <div class="oxi2">
 <a href="b88.php"><img src="PAGINA/papel/100pcs-Lot-Wedding-Decoration-font-b-Paper-b-font-font-b-Napkins-b-font-font-b.jpg" width="300" /></a> </div>
 <div class="c4">
-<a href="login.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
+<a href="b88.php"><img src="PAGINA/LOGOS/boton-comprar.png" width="140" /></a></div> 
 </div>
 <div id="pie">
 <div class="mediosdepago">
