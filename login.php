@@ -33,9 +33,11 @@ body {
 
 &nbsp;
     <form method="POST" action="">
-        <label>Nombre de usuario: </label><input type="text" name="userlogin"><br/><br/>
-        <label>Contrasena: </label><input type="password" name="pwlogin"><br/><br/>
-        <input type="submit" name="iniciarsesion" value="Iniciar Sesion">
+        <div style="margin-top:10px;">
+            <label>Nombre de usuario: </label><input type="text" name="userlogin"><br/><br/>
+            <label>Contrasena: </label><input type="password" name="pwlogin"><br/><br/>
+            <input type="submit" name="iniciarsesion" value="Iniciar Sesion">
+        </div>
     </form>
      <?php
 
@@ -51,7 +53,7 @@ if(isset($_POST['iniciarsesion']))
 		 
 		 $sesion = mysqli_fetch_array($recdos);
 		 
- 		if(isset($_POST['pwlogin'], $sesion['userpass']))
+ 		if($_POST['pwlogin'] == $sesion['userpass'])
         {
             $_SESSION['useremail'] = $sesion['nombre'];
             $_SESSION['userid'] = $sesion['id_usuario'];
