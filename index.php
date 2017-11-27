@@ -70,8 +70,13 @@
 <label> <p>Recibí nuestras ofertas y novedades en tu email</p></label>
 </form>
 <form id="enviaremail">
+<SCRIPT languaje="JavaScript">
+function pulsar() {
+alert("FELICITACIONES!!!!\n\nSe ha suscripto a recibir nuestras ofertas.");
+}
+</SCRIPT>
 <input type="text" placeholder="Ingresa tu email" required>
-<button type="submit">Enviar</button>
+<button type="submit" onclick="pulsar()">Enviar</button>
 </form>
 </div>
 <div id="copyright">
