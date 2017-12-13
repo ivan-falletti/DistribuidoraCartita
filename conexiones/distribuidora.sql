@@ -163,7 +163,11 @@ INSERT INTO `productos` (`id_producto`, `descripcion`, `material`, `precio`) VAL
 (93, 'Blonda blanca redonda ', 'papel', 20),
 (94, 'Blonda blanca cuadrada', 'papel', 20),
 (95, 'Blonda redonda color', 'papel ', 22),
-(96, 'Blonda redonda metalizada', 'papel metal', 95);
+(96, 'Blonda redonda metalizada', 'papel metal', 95),
+(97, '100 Bandejas de Aluminio', 'aluminio', 210),
+(98, '50 Bolsas de papel madera', 'papel', 200),
+(99, '50 cajas de carton', 'carton', 425),
+(100, 'Resma oferta 2x1', 'papel', 47.5);;
 
 -- --------------------------------------------------------
 
