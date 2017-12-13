@@ -2,16 +2,16 @@
 
 <div id="cuerpo3">
 <br /><br />
-<div id="camino4"><blockquote><a href="index.php"><text style="color:#000;">Inicio</text></a> / <a href="bandejas.php"><text style="color:#000">Bandejas</text></a> / <a href="telgopor.php"><text style="color:#000">Telgopor</text></a> / <a href="b1.php"><text style="color:#06c">Bandeja Cuadrada nº 617</text></a> </blockquote>
+<div id="camino4"><blockquote><a href="index.php"><text style="color:#000;">Inicio</text></a> / <a href="bandejas.php"><text style="color:#000">Promo 1</text></a>
 </div>
 <br/><br/>
 <div id="bandeja1">
-<a href="#"><img src="PAGINA/bandejas/cuadrado.png"  width="400" /></a> </div>
+<a href="#"><img src="PAGINA/bandejas-aluminio-1.jpg"  width="400" /></a> </div>
 
 <div class="detalle">
-<label> <b><font size="5", color="#06C"> BANDEJA TELGOPOR CUADRADA Nº617 </font></b> </label>
+<label> <b><font size="5", color="#06C"> 100 BANDEJAS DE ALUMINIO </font></b> </label>
 <br/><br/>
-<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b><font size="10">$1.50</font>    c/u.</b></label>
+<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b><font size="10">$210</font>    c/u.</b></label>
 <br/><br/>
 <img src="PAGINA/LOGOS/46635.png" width="21" height="21" /> &nbsp&nbsp
 <label><font size="3"> Paga en hasta 18 cuotas.</font>  </label>
@@ -30,7 +30,7 @@
 </div>
 <div class="comprar">
     <a class="add-to-cart" href="#"><img src="PAGINA/LOGOS/boton-comprar.png" width="160"/></a>
-    <input type="hidden" class="product-id" value="1" />
+    <input type="hidden" class="product-id" value="97" />
 </div> 
 <div class="productosrelacionados">
 <br/><br/>
