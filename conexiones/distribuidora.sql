@@ -167,7 +167,7 @@ INSERT INTO `productos` (`id_producto`, `descripcion`, `material`, `precio`) VAL
 (97, '100 Bandejas de Aluminio', 'aluminio', 210),
 (98, '50 Bolsas de papel madera', 'papel', 200),
 (99, '50 cajas de carton', 'carton', 425),
-(100, 'Resma oferta 2x1', 'papel', 47.5);;
+(100, 'Resma oferta 2x1', 'papel', 47.5);
 
 -- --------------------------------------------------------
 
