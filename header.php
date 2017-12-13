@@ -41,6 +41,17 @@ $(document).ready(function(){
 	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
 })*/
 
+function buscar() {
+    var texto = $('#texto_busqueda').val();
+    if (texto === '')
+    {
+        alert('Ingrese un producto para buscar.');
+        return;
+    }
+
+    window.location.href = "busqueda.php?texto_busqueda=" + texto;
+}
+
 function clearText(field)
 {
     if (field.defaultValue == field.value) field.value = '';
@@ -101,9 +112,8 @@ a:active { color: white; text-decoration: none; }
         </form>
     <?php } ?>
 </div>
-<form id="searchform">
-     <input type="text" placeholder="Buscar aqu&iacute;..." required>
-
+<form id="searchform" onsubmit="event.preventDefault(); buscar();">
+     <input id="texto_busqueda" type="text" placeholder="Buscar aqu&iacute;..." required>
      <button type="submit">Buscar</button>
  </form>
 
