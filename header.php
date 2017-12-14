@@ -113,7 +113,7 @@ a:active { color: white; text-decoration: none; }
     <?php } ?>
 </div>
 <form id="searchform" onsubmit="event.preventDefault(); buscar();">
-     <input id="texto_busqueda" type="text" placeholder="Buscar aqu&iacute;..." required>
+     <input id="texto_busqueda" type="text" placeholder="Buscar aqu&iacute;..." >
      <button type="submit">Buscar</button>
  </form>
 

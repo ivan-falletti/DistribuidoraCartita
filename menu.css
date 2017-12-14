@@ -4,7 +4,7 @@
 /* Main */
 
 #menu {
-    width: 100%;
+    width: 100.5%;
 	padding:12px 0 0 0;
     list-style: none;  
     background-color: #111;
@@ -285,7 +285,7 @@
 	font-size: 14px;
 	text-align: justify;
 	margin-left: 0px;
-	width:100%;
+	width:100.5%;
 	height:  750px;
 	background-color:#FFF;
 	
@@ -777,7 +777,7 @@
 	font-size: 14px;
 	text-align: justify;
 	margin-left: 0px;
-	width:100%;
+	width:100.5%;
 	height:  740px;
 	background-color:#fff;
 	text-align: center;

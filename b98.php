@@ -2,16 +2,16 @@
 
 <div id="cuerpo3">
 <br /><br />
-<div id="camino4"><blockquote><a href="index.php"><text style="color:#000;">Inicio</text></a> / <a href="bandejas.php"><text style="color:#000">Promo 1</text></a>
+<div id="camino4"><blockquote><a href="index.php"><text style="color:#000;">Inicio</text></a> / <a href="bandejas.php"><text style="color:#000">Promo 2</text></a>
 </div>
 <br/><br/>
 <div id="bandeja1">
-<a href="#"><img src="PAGINA/bandejas-aluminio-1.jpg"  width="400" /></a> </div>
+<a href="#"><img src="PAGINA/bolsa.jpg"  width="400" /></a> </div>
 
 <div class="detalle">
-<label> <b><font size="5", color="#06C"> 100 BANDEJAS DE ALUMINIO </font></b> </label>
+<label> <b><font size="5", color="#06C"> 50 BOLSAS DE PAPEL </font></b> </label>
 <br/><br/>
-<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b><font size="10">$210</font>    c/u.</b></label>
+<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b><font size="10">$200</font>    c/u.</b></label>
 <br/><br/>
 <img src="PAGINA/LOGOS/46635.png" width="21" height="21" /> &nbsp&nbsp
 <label><font size="3"> Paga en hasta 18 cuotas.</font>  </label>
@@ -30,17 +30,17 @@
 </div>
 <div class="comprar">
     <a class="add-to-cart" href="#"><img src="PAGINA/LOGOS/boton-comprar.png" width="160"/></a>
-    <input type="hidden" class="product-id" value="97" />
+    <input type="hidden" class="product-id" value="98" />
 </div> 
 <div class="productosrelacionados">
 <br/><br/>
 <label> <b><font size="5">¡¡PRODUCTOS RELACIONADOS!! </font> </b> </label>
 </div>
 <div class="producto1">
-<a href="b5.php"><img src="PAGINA/bandejas/20151110100426_bandeja-plastico.jpg"  width="260"/></a> </div>
+<a href="b42.php"><img src="PAGINA/bolsas/bolsas-fastfood.jpg" width="260"/></a> </div>
 
 <div class="producto2">
-<a href="b13.php"><img src="PAGINA/bandejas/2004.jpg" width="260"/></a> </div>
+<a href="b44.php"><img src="PAGINA/bolsas/15-145-thickbox.jpg" width="260"/></a> </div>
 </div>
 
 

@@ -25,17 +25,10 @@
             <label> <p>Recibí nuestras ofertas y novedades en tu email</p></label>
         </form>
         <form id="enviaremail">
-            <input type="text" placeholder="Ingresa tu email" required>
+            <input type="text" placeholder="Ingresa tu email" required >
             <button onclick="pulsar()">Enviar</button>
         </form>
-    </div>
     <div id="copyright">
         <label>© 2017 Derechos Reservados │ DISTRIBUIDORA DORREGO</label>
     </div>
 </div>
-
-<SCRIPT languaje="JavaScript">
-    function pulsar() {
-        alert("FELICITACIONES!!!!\n\nSe ha suscripto a recibir nuestras ofertas.");
-    }
-</SCRIPT>

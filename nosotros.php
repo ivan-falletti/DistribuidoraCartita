@@ -16,41 +16,8 @@ Nuestra confiabilidad, nos moviliza a la excelencia en la calidad de los product
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.6563160467745!2d-61.223199085225616!3d-32.0244221812057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b58c6544023845%3A0xd4c75ddd60e5aeb1!2sDorrego+969%2C+S2252DXO+G%C3%A1lvez%2C+Santa+Fe!5e0!3m2!1ses-419!2sar!4v1504200717885" width="550" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 </div>
-<div id="pie">
-<div class="mediosdepago">
-<form id="formapago">
-<label> <b>MEDIOS DE PAGO </b> </label>
-</form>
-<form id="tarjetas">
-<a href="http://www.ahora12.gob.ar" target="_blank"><img src="fotos/MasterCard-credit-cards-and-Visa-If-you-apply-for-both.jpg" width="100" height="30" /></a>
-</form>
-</div>
-<div id="servicios">
-<form id="servicios">
-<label> <b>SERVICIO AL CLIENTE</b> </label>
-</form>
-<form id="clientes">
-<a href="politica1.php">Política de devolución y cambios <br /></a>
-<a href="politica2.php">Términos y Condiciones <br /></a>
-<a href="politica3.php">Privacidad y Seguridad <br /></a>
-</form>
-</div>
-<div class="suscripcion">
-<form id="suscripcion">
-<label> <b>ENTERATE LO ÚLTIMO </b></label> 
-</form>
-<form id="email">
-<label> <p>Recibí nuestras ofertas y novedades en tu email</p></label>
-</form>
-<form id="enviaremail">
-<input type="text" placeholder="Ingresa tu email" required>
-<button type="submit">Enviar</button>
-</form>
-</div>
-<div id="copyright">
-<label>© 2017 Derechos Reservados │ DISTRIBUIDORA DORREGO</label>
-</div>
-</div>
+<?php include("footer.php");?>
+
 </body>
 
 </html>
