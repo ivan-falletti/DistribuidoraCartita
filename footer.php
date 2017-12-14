@@ -24,11 +24,17 @@
         <form id="email">
             <label> <p>Recibí nuestras ofertas y novedades en tu email</p></label>
         </form>
-        <form id="enviaremail">
+        <form id="enviaremail" onsubmit="event.preventDefault(); enviarMail();">
             <input type="text" placeholder="Ingresa tu email" required >
-            <button onclick="pulsar()">Enviar</button>
+            <button type="submit">Enviar</button>
         </form>
     <div id="copyright">
         <label>© 2017 Derechos Reservados │ DISTRIBUIDORA DORREGO</label>
     </div>
 </div>
+
+<SCRIPT languaje="JavaScript">
+    function enviarMail() {
+        alert("FELICITACIONES!!!!\n\nSe ha suscripto a recibir nuestras ofertas.");
+    }
+</SCRIPT>
