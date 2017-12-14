@@ -49,6 +49,13 @@ function buscar() {
         return;
     }
 
+    if (texto.length < 2)
+    {
+        alert('Ingrese al menos 2 caracteres para buscar.');
+        return;
+    }
+    
+
     window.location.href = "busqueda.php?texto_busqueda=" + texto;
 }
 
