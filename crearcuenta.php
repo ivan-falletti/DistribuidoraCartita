@@ -126,17 +126,18 @@ body {
 		echo "<font color=\#red\">Debe llenar todos los campos por favor.</font>";
     }else{
         
-             $sql = 'SELECT * FROM usuarios';
+             $sql = 'SELECT useremail FROM usuarios';
              $rec = mysqli_query($conexion,$sql);
              $verificar = 0;
         
-             while($resultado = mysqli_fetch_object($rec))
+             while($resultado = mysqli_fetch_array($rec, MYSQL_ASSOC))
              {
-                 if($resultado->useremail == $_POST['useremail'])
+                 if($resultado["useremail"] == $_POST['useremail'])
                  {
                      $verificar = 1;
                  }
              }
+
              if($verificar == 0)
              {
 				 if($_POST['userpass'] == $_POST['repuserpass'])
